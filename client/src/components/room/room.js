@@ -47,7 +47,8 @@ export default function Room() {
           ))
         )}
         <Physics>
-          <Plane />
+         <Plane />
+       
           <Box />
           <Text text={"GameHouse"} position={[-30, 10, 0]} color={"#7FFFDD"} />
           {/* <Text text={"4 Baozi"} */}
@@ -56,6 +57,7 @@ export default function Room() {
             <Model />
            
           </Suspense>
+
         </Physics>
       </Canvas>
     </div>
