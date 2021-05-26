@@ -20,11 +20,9 @@ function Plane() {
   );
 }
 
-//Loads the skybox texture and applies it to the scene
-// function SkyBox() {
-//   return null;
-// }
-
+function SkyBox() {
+  return null;
+}
 export default function Room() {
   return (
     <div className="canvas-container">
@@ -33,8 +31,8 @@ export default function Room() {
           position: [Math.PI * 2, 20, Math.PI * 2],
         }}
       >
-        <Stars />
-        {/* <SkyBox /> */}
+        {/* <Stars /> */}
+        <SkyBox />
         <OrbitControls />
         <ambientLight intensity={0.5} />
         {/* <spotLight
